@@ -120,7 +120,7 @@
       this.update()
     },
     destroyed() {
-      this.setTimeout(function() {
+      setTimeout(function() {
         if (this.swiper) {
           this.swiper.destroy && this.swiper.destroy()
           delete this.swiper
